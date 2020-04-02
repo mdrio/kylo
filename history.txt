@@ -1,0 +1,51 @@
+    1  git
+    2  git clone https://github.com/Teradata/kylo.git
+    3  cd kylo/
+    4  ls
+    5  git branch
+    6  git branch --all
+    7  git checkout release/0.10.0
+    8  mvn clean install
+    9  vi pom.xml 
+   10  apt install vim
+   11  apt update
+   12  vi pom.xml 
+   13  apt install vim
+   14  vi pom.xml 
+   15  mvn --version
+   16  mvn dependency:get -Dartifact=com.martiansoftware:macnificent:jar:0.2.0
+   17  mvn dependency:get -Dartifact=com.martiansoftware:macnificent:jar:0.2.0
+   18  cd ..
+   19  cd -
+   20  cd /
+   21  mvn dependency:get -Dartifact=com.martiansoftware:macnificent:jar:0.2.0
+   22  mvn dependency:get -Dartifact=com.martiansoftware:macnificent:jar:0.2.0
+   23  wget http://mvn.martiansoftware.com/com/martiansoftware/macnificent/0.2.0/macnificent-0.2.0.jar
+   24  mvn install:install-file -DgroupId=com.martiansoftware -DartifactId=macnificent -Dversion=jar -Dpackaging=0.2.0 -Dfile=macnificent-0.2.0.jar
+   25  cd -
+   26  mvn clean install
+   27  mvn install
+   28  mvn install -e
+   29  mvn clean install  -DskipTests
+   30  mvn install:install-file -DgroupId=com.martiansoftware -DartifactId=macnificent -Dversion=jar -Dpackaging=0.2.0 -Dfile=/macnificent-0.2.0.jar
+   31  mvn install  -DskipTests
+   32  vi pom.xml 
+   33  mvn install  -DskipTests
+   34  vi pom.xml 
+   35  mvn install  -DskipTests
+   36  mvn install:install-file -DgroupId=com.martiansoftware -DartifactId=macnificent -Dversion=jar -Dpackaging=0.2.0 -Dfile=/macnificent-0.2.0.jar
+   37  cd /
+   38  mvn install:install-file -DgroupId=com.martiansoftware -DartifactId=macnificent -Dversion=jar -Dpackaging=0.2.0 -Dfile=/macnificent-0.2.0.jar
+   39  cd -
+   40  mvn install  -DskipTests
+   41  grep "http://repo1.maven.org" * -rn
+   42  vi pom.xml 
+   43  mvn install  -DskipTests
+   44  vi pom.xml 
+   45  mvn install  -DskipTests
+   46  ls
+   47  cd kylo/
+   48  find . -name *deb
+   49  cd kylo/
+   50  git status
+   51  history > history.txt
